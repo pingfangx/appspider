@@ -39,13 +39,17 @@ ITEM_PIPELINES = {
 例如做统计分析。
 
 ## 应用列表
-|app|进度|示例数据|消息编号|
-|:-----:|:-----:|:-----:|:-----:|
-|裁判文书|✔||AppSpider-0000-000|
-|百度外卖|✔|[百度外卖测试数据](http://appspider.info:8002/baiduwaimai)|AppSpider-0002-001|
-|抖音|✔|[抖音测试数据](http://appspider.info:8002/douyin2)|AppSpider-0003-002|
-|快手|✔|[快手测试数据](http://appspider.info:8002/kuaishou101)|AppSpider-0005-001|
-|秒拍|✔|[秒拍测试数据](http://appspider.info:8002/miaopaix)|AppSpider-0006-002|
+|app|进度|示例数据|消息编号|备注|
+|:-----:|:-----:|:-----:|:-----:|:-----:|
+|裁判文书|✔||AppSpider-0000-000|校验算法|
+|饿了么|doing||AppSpider-0001-001|请求参数|
+|百度外卖|✔|[百度外卖测试数据](http://appspider.info:8002/baiduwaimai)|AppSpider-0002-001|定位问题|
+|抖音|✔|[抖音测试数据](http://appspider.info:8002/douyin2)|AppSpider-0003-002|附近接口|
+|快手|✔|[快手测试数据](http://appspider.info:8002/kuaishou101)|AppSpider-0005-001|附近接口|
+|秒拍|✔|[秒拍测试数据](http://appspider.info:8002/miaopaix)|AppSpider-0006-002|附近接口|
+|裁判文书网|✔||AppSpider-0007-001|动态密钥生成算法|
+|oppo应用市场|doing||AppSpider-0008-001|protobuf结构体|
+|小米应用市场|✔||AppSpider-0009-001|评论，appid参数|
 |...|...|...|...|
 
 ## 结构
