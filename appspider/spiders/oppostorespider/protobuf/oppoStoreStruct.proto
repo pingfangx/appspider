@@ -1,0 +1,66 @@
+syntax = "proto3";
+package protobuf;
+
+message commentRequest{
+    int32 userId = 1;
+    int32 os = 2;
+    int32 size = 3;
+    int32 start = 4;
+    string mobile = 5;
+    int32 orderBy = 6;
+    int32 categoryId = 7;
+    int32 themeVersion = 8;
+    int32 platform = 9;
+    int32 compress = 10;
+    int32 resType = 11;
+    int64 relateId = 12;
+    string keyword = 13;
+    string screen = 14;
+    int32 source = 15;
+    string userToken = 16;
+    int32 randomCount = 17;
+    string imei = 18;
+    int32 searchType = 19;
+    string imsi = 20;
+    string net = 21;
+    int32 pageNo = 22;
+    string package = 23;
+}
+
+message commentItem {
+    int32 id = 1;
+    int32 userId = 2;
+    string userNickName = 3;
+    string word = 4;
+    int64 createTime = 5;
+    double userGrade = 6;
+    int32 state = 7;
+    string userIp = 8;
+    string imei = 9;
+    string version = 10;
+    int32 isMobile = 11;
+    int32 platform = 12;
+    int32 orderIndex = 13;
+    string mobileName = 14;
+    int64 productId = 15;
+    int64 masterId = 16;
+    string userToken = 17;
+    int32 replyId = 18;
+    string reply = 19;
+    int64 subjectId = 20;
+    int32 isSendPoints = 21;
+    int32 Count = 22;
+}
+
+message commentlist {
+    int64 productId = 1;
+    int32 total = 2;
+    int32 start = 3;
+    int32 end = 4;
+    repeated commentItem comment = 5;
+    int32 gradeNum = 6;
+    string startsRate = 7;
+    int64 masterId = 8;
+    commentItem userComment = 9;
+    repeated commentItem topComment = 10;
+}
